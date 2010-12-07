@@ -50,4 +50,10 @@ alias gpdm_pro='git push origin master && cap production deploy:migrations'
 alias tst='rake ts:stop && rake ts:start RAILS_ENV=test'
 alias tsd='rake ts:stop RAILS_ENV=test && rake ts:start'
 
+parse_git_branch() {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\ →\ \1/'
+}
+
+export PS1='\[\e[1;37m\][\[\e[1;35m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[1;37m\]:\[\e[1;36m\]\w\[\e[1;33m\]$(parse_git_branch)\[\e[1;37m\]]$ \[\e[0m\]'
+
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
