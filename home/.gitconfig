@@ -27,3 +27,6 @@ ui = auto
 [user]
   name = Alberto Perdomo
   email = alberto.perdomo@aentos.es
+
+[branch]  
+  autosetuprebase = always
