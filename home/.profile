@@ -8,7 +8,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 # Finished adapting your MANPATH environment variable for use with MacPorts.
 
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Library/PostgreSQL/8.4/bin:~/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/pgsql/bin:~/bin:$PATH"
 export AUTOFEATURE=true
 
 alias gst='git status'
