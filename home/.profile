@@ -14,8 +14,8 @@ export AUTOFEATURE=true
 # Some helpful aliases in general
 alias ls='ls -lG'
 alias rm='rm -i'
-alias mbp='mate ~/.bash_profile'
-alias sbp='source ~/.bash_profile'
+alias mbp='mate ~/.profile'
+alias sbp='source ~/.profile'
 
 # Git aliases
 alias gst='git status'
