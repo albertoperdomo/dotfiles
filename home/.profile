@@ -12,17 +12,19 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/pgsq
 export AUTOFEATURE=true
 
 # Some helpful aliases in general
-alias ls='ls -lG'
+alias ls='ls -lGa'
 alias rm='rm -i'
 alias mbp='mate ~/.profile'
 alias sbp='source ~/.profile'
 
 # Git aliases
 alias gst='git status'
-alias gpd='git pull origin master'
-alias gpd='git push origin master'
+alias gpl='git pull origin master'
+alias gps='git push origin master'
 alias gb='git branch'
 alias gba='git branch -a'
+alias gs='git rebase -i origin/mater'
+alias gcm='git checkout master'
 
 # Rails
 alias rdbp='rake db:migrate && rake db:test:prepare'
