@@ -1,3 +1,4 @@
+export PATH=/usr/local/bin:$PATH
 export AUTOFEATURE=true
 
 # Some helpful aliases in general
