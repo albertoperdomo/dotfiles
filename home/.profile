@@ -21,7 +21,7 @@ bind '"\M-d": backward-kill-word'
 parse_git_branch() {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\ →\ \1/'
 }
-export PS1='\[\e[1;37m\][\[\e[1;35m\]\u\[\e[1;37m\]:\[\e[1;36m\]\w\[\e[1;33m\]$(parse_git_branch)\[\e[1;37m\]]$ \[\e[0m\]'
+export PS1='\[\e[1;37m\][\[\e[1;35m\]\u\[\e[1;37m\]:\[\e[1;36m\]$(~/.spwd/spwd -m 40)\[\e[1;33m\]$(parse_git_branch)\[\e[1;37m\]]$ \[\e[0m\]'
 
 # bash-completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
