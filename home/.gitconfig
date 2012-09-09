@@ -24,8 +24,14 @@
   editor = vim
 
 [user]
-  name = Alberto Perdomo
-  email = alberto.perdomo@aentos.com
+	name = albertoperdomo
+	email = alberto.perdomo@aentos.com
 
 [branch]
   autosetuprebase = always
+
+[heroku]
+	account = aentos
+
+[github]
+	user = albertoperdomo
