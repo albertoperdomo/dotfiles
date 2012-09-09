@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/alberto/Code/graphene-landing/sass'
+let g:netrw_dirhist_2='/Users/alberto/Code/graphene-landing'
+let g:netrw_dirhist_3='/Users/alberto/Code/graphene-landing/public'
+let g:netrw_dirhist_4='/Users/alberto/.vim'
