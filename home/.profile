@@ -9,11 +9,6 @@ alias gst='git status'
 alias gb='git branch'
 alias gba='git branch -a'
 
-# Rails
-alias ss='rails server'
-alias sc='rails console'
-alias sg='rails generate'
-
 # delete a word left of the cursor
 bind '"\M-d": backward-kill-word'
 
