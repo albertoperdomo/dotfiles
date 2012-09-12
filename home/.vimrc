@@ -32,7 +32,7 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 set t_Co=256
-colorscheme zenburn
+colorscheme railscasts
 
 
 "vim-powerline
