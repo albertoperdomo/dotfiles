@@ -11,13 +11,6 @@ Bundle 'gmarik/vundle'
 " Bundles
 Bundle 'Lokaltog/vim-powerline.git'
 
-" My own stuff
-syntax enable
-set encoding=utf-8
-set showcmd                     " display incomplete commands
-filetype plugin indent on       " load file type plugins + indentation
-colorscheme zenburn
-
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
@@ -33,3 +26,16 @@ set smartcase                   " ... unless they contain at least one capital l
 
 filetype plugin indent on     " required!
 
+" My own stuff
+syntax enable
+set encoding=utf-8
+set showcmd                     " display incomplete commands
+filetype plugin indent on       " load file type plugins + indentation
+set t_Co=256
+colorscheme zenburn
+
+
+"vim-powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+set fillchars+=stl:\ ,stlnc:\
