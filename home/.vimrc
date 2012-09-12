@@ -1,4 +1,17 @@
-set nocompatible                " choose no compatibility with legacy vi
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" Bundles
+Bundle 'Lokaltog/vim-powerline.git'
+
+" My own stuff
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
@@ -17,3 +30,6 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
+
+filetype plugin indent on     " required!
+
