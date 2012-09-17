@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 
 " Bundles
 Bundle 'Lokaltog/vim-powerline.git'
+Bundle 'tpope/vim-rails.git'
 
 "" Whitespace
 set nowrap                      " don't wrap lines
