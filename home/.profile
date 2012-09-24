@@ -9,6 +9,10 @@ alias gst='git status'
 alias gb='git branch'
 alias gba='git branch -a'
 
+# Use mvim instead of Mac OSX's broken vim version
+alias vim="mvim -v"
+alias vi="mvim -v"
+
 # delete a word left of the cursor
 bind '"\M-d": backward-kill-word'
 
