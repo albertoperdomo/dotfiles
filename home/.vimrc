@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 " Bundles
 Bundle 'Lokaltog/vim-powerline.git'
 Bundle 'tpope/vim-rails.git'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'tpope/vim-markdown'
 
 "" Whitespace
 set nowrap                      " don't wrap lines
