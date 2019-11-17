@@ -24,13 +24,10 @@
 
 [user]
 	name = albertoperdomo
-	email = alberto.perdomo@aentos.com
+	email = alberto.perdomo@gmail.com
 
 [branch]
   autosetuprebase = always
-
-[heroku]
-	account = aentos
 
 [github]
 	user = albertoperdomo
